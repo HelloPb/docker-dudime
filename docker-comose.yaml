@@ -1,0 +1,9 @@
+version: '3'
+
+services: 
+ product-service:
+  build: ./dudi
+  volumes:
+    - ./dudime:/usr/src/app
+  ports:
+    - 5001:80
