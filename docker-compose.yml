@@ -4,6 +4,6 @@ services:
  product-service:
   build: ./dudi
   volumes:
-    - ./dudime:/usr/src/app
+    - ./dudi:/usr/src/app
   ports:
     - 5001:80
