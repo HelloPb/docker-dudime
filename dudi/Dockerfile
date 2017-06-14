@@ -7,7 +7,7 @@ WORKDIR /usr/src/app/
 COPY package.json /usr/src/app/
 
 RUN npm install --production
-RUN npm install -g angular-cli
+RUN sudo npm install -g angular-cli
 
 COPY . /usr/src/app/
 
