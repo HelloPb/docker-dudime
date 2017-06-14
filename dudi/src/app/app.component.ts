@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app frm docker google';
+  title = 'app frm docker google.  rebuild';
 }
