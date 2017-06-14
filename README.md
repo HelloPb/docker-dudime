@@ -1,1 +1,1 @@
-# docker-dudime
+# docker-compose run --rm product-service npm install
